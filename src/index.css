@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+	background-image: url("./img/1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.footer{
+	-webkit-box-shadow: 0px -5px 4px -3px rgba(111, 108, 108, 0.75);
+-moz-box-shadow: 0px -1px 1px -5px rgba(89, 82, 82, 0.75);
+box-shadow: 0px -3px 4px -4px rgba(87, 84, 84, 0.75);
+}
+.category{
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.51);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.51);
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.51);
+}
+/* .c-header{
+	background-image: url("./img/caef9a74a0dc65942630e0b4457386d1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+} */
